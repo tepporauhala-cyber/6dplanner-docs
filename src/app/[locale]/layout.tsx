@@ -18,8 +18,10 @@ export default async function LocaleLayout({
   const categories = getCategories(docs);
   const locales = getLocales();
 
+  const dir = locale === "ar" ? "rtl" : "ltr";
+
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex h-screen flex-col" dir={dir}>
       <Header locale={locale} locales={locales} localeNames={localeNames} />
       <div className="flex flex-1 overflow-hidden">
         <Sidebar categories={categories} locale={locale} />

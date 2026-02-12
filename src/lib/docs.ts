@@ -80,6 +80,8 @@ export function getCategories(
 export const localeNames: Record<string, string> = {
   fi: "Suomi",
   en: "English",
+  et: "Eesti",
+  ar: "العربية",
   sv: "Svenska",
   de: "Deutsch",
   fr: "Français",
