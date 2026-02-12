@@ -12,10 +12,10 @@ Systemeinstellungen ändern das Verhalten der Anwendung.
 Folgende Einstellungen können schnell ein-/ausgeschaltet werden:
 
 - **Globus** - Globales Geländemodell und Hintergrundkarten. Bei Deaktivierung werden Gelände und Hintergrundkarten ausgeblendet.
-- **Projektebene** - Virtuelle Projektebene, wenn der Import auf den "Plane"-Modus eingestellt ist
+- **Projektebene** - Virtuelle Projektebene, wenn der Import auf den "Plane"-Modus (Projektebene) eingestellt ist
 - **Kantenglättung** - Kantenglättung
 - **Schatten** - Schatten durch Sonnenlicht
-- **HUD** - Informationsanzeige zur Rendergeschwindigkeit, wie fps
+- **HUD** (Heads-Up-Display) - Informationsanzeige zur Rendergeschwindigkeit, wie fps
 - **Batterie sparen** - Anzeige wird nicht aktualisiert, wenn keine Änderungen in der 3D-Ansicht auftreten
 - **Umgebungsverdeckung** - Umgebungsverdeckungseffekt, der das Abprallen von Licht von Oberflächen simuliert
 - **Inspektionswerkzeug** - Spezielles Werkzeug zur Inspektion von Modellobjekten

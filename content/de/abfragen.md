@@ -5,7 +5,7 @@ category: "Hauptwerkzeuge"
 order: 24
 ---
 
-Das Abfragewerkzeug ist eine leistungsstarke integrierte Datenbanksuche, die das schnelle Finden von BIM-Objekten aus großen Projektdaten ermöglicht.
+Das Abfrage-Werkzeug ist eine leistungsstarke integrierte Datenbanksuche, die das schnelle Finden von BIM-Objekten aus großen Projektdaten ermöglicht.
 
 ## Funktionalität
 

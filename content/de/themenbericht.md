@@ -16,4 +16,4 @@ Der Themenbericht fasst alle Projektthemen in einer leicht lesbaren Tabelle zusa
 
 ## Tipps
 
-Verwenden Sie den Themenbericht zur Berichterstattung an Endkunden. Er zeigt jeden Projektthem, Status und Workflow-Schritte. Dies wird automatisch erstellt und spart Ihre Zeit.
+Verwenden Sie den Themenbericht zur Berichterstattung an Endkunden. Er zeigt jedes Projektthema, Status und Workflow-Schritte. Dies wird automatisch erstellt und spart Ihre Zeit.

@@ -15,13 +15,13 @@ Veröffentlicht am 30. Januar 2026
 - Bildexport von Ansichtspunkten
 - Materialwerkzeug zur automatischen Visualisierung
 - Videoexport von Ansichtspunkten für Kameraanimationen
-- KMZ / KML Metadatenanzeige in ObjectInfo
+- KMZ / KML Metadatenanzeige in *ObjectInfo*
 - Aktualisierung der Ansichtspunkt-Symbolleiste
 
 ### Fehlerbehebungen
 
 - Probleme beim Speichern und Laden von Berechnungen
 - Einige Modelle wurden nach dem Import nicht korrekt angezeigt
-- 4DGantt MS Project-Import korrekt unter ausgewählter Unteraufgabe
+- 4D Gantt MS-Project-Import korrekt unter ausgewählter Unteraufgabe
 - Projekte erschienen nicht immer in der Organisationsprojektliste
 - AzureAD Anmeldeverbesserungen

@@ -5,7 +5,7 @@ category: "Hauptwerkzeuge"
 order: 10
 ---
 
-Das Datenbaum-Werkzeug wird zur Verwaltung aller Projektdatenquellen verwendet, um sie in Ordner zu organisieren, Zugriffsrechte zu verwalten und zu steuern, wie Daten in 3D-Ansichten erscheinen.
+Das Datenverwaltungs-Werkzeug wird zur Verwaltung aller Projektdatenquellen verwendet, um sie in Ordner zu organisieren, Zugriffsrechte zu verwalten und zu steuern, wie Daten in 3D-Ansichten erscheinen.
 
 ## Symbolleiste
 

@@ -5,7 +5,7 @@ category: "Hauptwerkzeuge"
 order: 15
 ---
 
-Das Schnittebenen-Werkzeug wird zum Aufschneiden von Modellen und Erstellen von Querschnittsansichten verwendet.
+Mit dem Werkzeug Schnittebene können Modelle aufgeschnitten und Querschnittsansichten erstellt werden.
 
 ## Horizontal
 

@@ -5,7 +5,7 @@ category: "Hauptwerkzeuge"
 order: 25
 ---
 
-Das Berechnungswerkzeug ist eine leistungsstarke Tabellenkalkulation, die Berechnungen basierend auf Metadaten von Datenmodellobjekten ermöglicht.
+Das Berechnungs-Werkzeug ist eine leistungsstarke Tabellenkalkulation, die Berechnungen basierend auf Metadaten von Datenmodellobjekten ermöglicht.
 
 ## Funktionalität
 

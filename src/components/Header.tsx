@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSwitcher from "./LanguageSwitcher";
+import SearchBar from "./SearchBar";
 
 type Props = {
   locale: string;
@@ -19,6 +20,7 @@ export default function Header({ locale, locales, localeNames }: Props) {
       </div>
 
       <div className="flex items-center gap-4">
+        <SearchBar locale={locale} />
         <LanguageSwitcher
           locales={locales}
           currentLocale={locale}

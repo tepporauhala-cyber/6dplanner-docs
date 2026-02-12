@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllDocs, getCategories, getLocales } from "@/lib/docs";
+import { getTranslation } from "@/lib/translations";
 
 export function generateStaticParams() {
   return getLocales().map((locale) => ({ locale }));
@@ -13,16 +14,13 @@ export default async function LocaleIndex({
   const { locale } = await params;
   const docs = getAllDocs(locale);
   const categories = getCategories(docs);
+  const t = getTranslation(locale);
 
   return (
     <div className="mx-auto max-w-4xl">
       <div className="mb-10 text-center">
         <h1 className="mb-3 text-4xl font-bold text-white">eGuide</h1>
-        <p className="text-lg text-brand-muted">
-          {locale === "fi"
-            ? "Ohjeet kaikkiin 6DPlannerin työkaluihin"
-            : "Guides for all 6DPlanner tools"}
-        </p>
+        <p className="text-lg text-brand-muted">{t.subtitle}</p>
       </div>
 
       {categories.map((cat) => (

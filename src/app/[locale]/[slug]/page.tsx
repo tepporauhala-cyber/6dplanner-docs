@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDoc, getDocSlugs, getLocales } from "@/lib/docs";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
+import { getTranslation } from "@/lib/translations";
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -23,6 +24,7 @@ export default async function DocPage({
   if (!doc) notFound();
 
   const htmlContent = await markdownToHtml(doc.content);
+  const t = getTranslation(locale);
 
   return (
     <div className="mx-auto max-w-3xl">
@@ -30,7 +32,7 @@ export default async function DocPage({
         href={`/${locale}`}
         className="mb-6 inline-flex items-center gap-1 text-sm text-brand-muted hover:text-brand-accent"
       >
-        ← {locale === "fi" ? "Takaisin hakemistoon" : "Back to index"}
+        ← {t.backToIndex}
       </Link>
 
       <h1 className="mb-6 text-4xl font-bold text-white">{doc.title}</h1>

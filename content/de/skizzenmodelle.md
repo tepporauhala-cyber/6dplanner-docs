@@ -15,7 +15,7 @@ Geeignet z.B. für Landschaftsplanung, Stadtmobiliar und Baustellenmaschinen.
 
 ## Linie
 
-Fügen Sie Polylinienelement mit Linienpunkten, Breite und Höhe hinzu. Bei Höhe = 0 folgt die Linie allen Modellen und dem Boden.
+Fügen Sie Polylinien-Element mit Linienpunkten, Breite und Höhe hinzu. Bei Höhe = 0 folgt die Linie allen Modellen und dem Boden.
 
 Geeignet z.B. für Straßen, Gleise, Zäune oder Baustellengräben.
 
