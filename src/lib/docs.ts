@@ -82,8 +82,9 @@ export const localeNames: Record<string, string> = {
   en: "English",
   et: "Eesti",
   ar: "العربية",
-  sv: "Svenska",
   de: "Deutsch",
+  sv: "Svenska",
+  pl: "Polski",
   fr: "Français",
   es: "Español",
 };
