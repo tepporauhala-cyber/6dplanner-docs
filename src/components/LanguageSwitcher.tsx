@@ -22,8 +22,12 @@ export default function LanguageSwitcher({
     const segments = pathname.split("/").filter(Boolean);
     if (segments.length > 0) {
       segments[0] = newLocale;
+    } else {
+      // Fallback if path is empty (root), although unlikely with [locale] routing
+      segments.push(newLocale);
     }
-    router.push("/" + segments.join("/"));
+    const newPath = "/" + segments.join("/");
+    window.location.href = newPath;
   }
 
   return (
