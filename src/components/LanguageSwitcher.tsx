@@ -16,18 +16,33 @@ export default function LanguageSwitcher({
   const pathname = usePathname();
   const router = useRouter();
 
-  function handleChange(e: React.ChangeEvent<HTMLSelectElement>) {
+  async function handleChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const newLocale = e.target.value;
-    // Replace locale segment in path
     const segments = pathname.split("/").filter(Boolean);
-    if (segments.length > 0) {
-      segments[0] = newLocale;
-    } else {
-      // Fallback if path is empty (root), although unlikely with [locale] routing
-      segments.push(newLocale);
+
+    // If on a doc page (has slug), try to find localized slug
+    if (segments.length >= 2) {
+      const currentSlug = segments[1];
+
+      try {
+        const res = await fetch("/slug-map.json");
+        if (res.ok) {
+          const map: Record<string, string>[] = await res.json();
+          const entry = map.find((m) => m[currentLocale] === currentSlug);
+          if (entry && entry[newLocale]) {
+            // Found target slug!
+            const targetSlug = entry[newLocale];
+            window.location.href = `/${newLocale}/${targetSlug}`;
+            return;
+          }
+        }
+      } catch (err) {
+        console.error("Failed to load slug map", err);
+      }
     }
-    const newPath = "/" + segments.join("/");
-    window.location.href = newPath;
+
+    // Fallback: redirects to root of new locale
+    window.location.href = `/${newLocale}`;
   }
 
   return (

@@ -1,0 +1,252 @@
+[
+  {
+    "ar": "navigation",
+    "de": "navigation",
+    "en": "navigation",
+    "et": "navigeerimine",
+    "fi": "navigointi",
+    "fr": "navigation",
+    "pl": "nawigacja",
+    "sv": "navigering"
+  },
+  {
+    "ar": "display-modes",
+    "de": "anzeigemodi",
+    "en": "display-modes",
+    "et": "kuvarežiimid",
+    "fi": "nayttotilat",
+    "fr": "modes-affichage",
+    "pl": "tryby-wyswietlania",
+    "sv": "visningslage"
+  },
+  {
+    "ar": "project-list",
+    "de": "projektliste",
+    "en": "project-list",
+    "et": "projektiloend",
+    "fi": "projektiluettelo",
+    "fr": "liste-projets",
+    "pl": "lista-projektow",
+    "sv": "projektlista"
+  },
+  {
+    "ar": "profile-settings",
+    "de": "profileinstellungen",
+    "en": "profile-settings",
+    "et": "profiiliseaded",
+    "fi": "profiiliasetukset",
+    "fr": "parametres-profil",
+    "pl": "ustawienia-profilu",
+    "sv": "profilinstallningar"
+  },
+  {
+    "ar": "system-settings",
+    "de": "systemeinstellungen",
+    "en": "system-settings",
+    "et": "susteemiseaded",
+    "fi": "jarjestelma-asetukset",
+    "fr": "parametres-systeme",
+    "pl": "ustawienia-systemowe",
+    "sv": "systeminstallningar"
+  },
+  {
+    "ar": "project-settings",
+    "de": "projekteinstellungen",
+    "en": "project-settings",
+    "et": "projektiseaded",
+    "fi": "projektin-asetukset",
+    "fr": "parametres-projet",
+    "pl": "ustawienia-projektu",
+    "sv": "projektinstallningar"
+  },
+  {
+    "ar": "organization-management",
+    "de": "organisationsverwaltung",
+    "en": "organization-management",
+    "et": "organisatsiooni-haldamine",
+    "fi": "organisaation-hallinta",
+    "fr": "gestion-organisation",
+    "pl": "zarzadzanie-organizacja",
+    "sv": "organisationshantering"
+  },
+  {
+    "ar": "release-notes",
+    "de": "versionshinweise",
+    "en": "release-notes",
+    "et": "valjalaskemarked",
+    "fi": "julkaisutiedot",
+    "fr": "notes-version",
+    "pl": "informacje-o-wydaniu",
+    "sv": "versionsanteckningar"
+  },
+  {
+    "ar": "technical-documentation",
+    "de": "technische-dokumentation",
+    "en": "technical-documentation",
+    "et": "tehniline-dokumentatsioon",
+    "fi": "tekninen-dokumentaatio",
+    "fr": "documentation-technique",
+    "pl": "dokumentacja-techniczna",
+    "sv": "teknisk-dokumentation"
+  },
+  {
+    "ar": "data-management",
+    "de": "datenverwaltung",
+    "en": "data-management",
+    "et": "andmete-haldamine",
+    "fi": "aineiston-hallinta",
+    "fr": "gestion-donnees",
+    "pl": "zarzadzanie-danymi",
+    "sv": "datahantering"
+  },
+  {
+    "ar": "4d-gantt",
+    "de": "4d-gantt",
+    "en": "4d-gantt",
+    "et": "4d-gantt",
+    "fi": "4d-gantt",
+    "fr": "4d-gantt",
+    "pl": "4d-gantt",
+    "sv": "4d-gantt"
+  },
+  {
+    "ar": "sketch-models",
+    "de": "skizzenmodelle",
+    "en": "sketch-models",
+    "et": "eskiismudelid",
+    "fi": "luonnosmallit",
+    "fr": "modeles-esquisse",
+    "pl": "modele-szkicowe",
+    "sv": "skissmodeller"
+  },
+  {
+    "ar": "hide",
+    "de": "ausblenden",
+    "en": "hide",
+    "et": "peida",
+    "fi": "piilota",
+    "fr": "masquer",
+    "pl": "ukryj",
+    "sv": "dolj"
+  },
+  {
+    "ar": "measurement",
+    "de": "messung",
+    "en": "measurement",
+    "et": "mootmine",
+    "fi": "mittaus",
+    "fr": "mesure",
+    "pl": "pomiar",
+    "sv": "matning"
+  },
+  {
+    "ar": "clipping-plane",
+    "de": "schnittebene",
+    "en": "clipping-plane",
+    "et": "loiketasand",
+    "fi": "leikkaustaso",
+    "fr": "plan-coupe",
+    "pl": "plaszczyzna-ciecia",
+    "sv": "klipplan"
+  },
+  {
+    "ar": "viewpoints",
+    "de": "ansichtspunkte",
+    "en": "viewpoints",
+    "et": "vaatepunktid",
+    "fi": "nakymat",
+    "fr": "points-vue",
+    "pl": "punkty-widokowe",
+    "sv": "vyplatser"
+  },
+  {
+    "ar": "timeline",
+    "de": "zeitleiste",
+    "en": "timeline",
+    "et": "ajatelg",
+    "fi": "aikajana",
+    "fr": "chronologie",
+    "pl": "os-czasu",
+    "sv": "tidslinje"
+  },
+  {
+    "ar": "feedback",
+    "de": "feedback",
+    "en": "feedback",
+    "et": "tagasiside",
+    "fi": "palaute",
+    "fr": "retour-experience",
+    "pl": "opinie",
+    "sv": "feedback"
+  },
+  {
+    "ar": "feedback-report",
+    "de": "feedback-bericht",
+    "en": "feedback-report",
+    "et": "tagasiside-raport",
+    "fi": "palauteraportti",
+    "fr": "rapport-retour",
+    "pl": "raport-opinii",
+    "sv": "feedbackrapport"
+  },
+  {
+    "ar": "topics",
+    "de": "themen",
+    "en": "topics",
+    "et": "teemad",
+    "fi": "aiheet",
+    "fr": "sujets",
+    "pl": "tematy",
+    "sv": "amnen"
+  },
+  {
+    "ar": "topic-list",
+    "de": "themenliste",
+    "en": "topic-list",
+    "et": "teemaloend",
+    "fi": "aiheluettelo",
+    "fr": "liste-sujets",
+    "pl": "lista-tematow",
+    "sv": "amneslista"
+  },
+  {
+    "ar": "topic-report",
+    "de": "themenbericht",
+    "en": "topic-report",
+    "et": "teemaraport",
+    "fi": "aiheraportti",
+    "fr": "rapport-sujets",
+    "pl": "raport-tematow",
+    "sv": "amnesrapport"
+  },
+  {
+    "ar": "snapshot",
+    "de": "momentaufnahme",
+    "en": "snapshot",
+    "et": "hetkeuelevaade",
+    "fi": "tilannekuva",
+    "fr": "tableau-bord",
+    "pl": "panel-statusu",
+    "sv": "ogonblicksbild"
+  },
+  {
+    "ar": "queries",
+    "de": "abfragen",
+    "en": "queries",
+    "et": "paringud",
+    "fi": "kyselyt",
+    "fr": "requetes",
+    "pl": "zapytania",
+    "sv": "forfragningar"
+  },
+  {
+    "ar": "calculations",
+    "de": "berechnungen",
+    "en": "calculations",
+    "et": "arvutused",
+    "fi": "laskennat",
+    "fr": "calculs",
+    "pl": "obliczenia",
+    "sv": "berakningar"
+  }
+]
